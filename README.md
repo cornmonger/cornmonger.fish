@@ -1,2 +1,3 @@
-# evecli
- Command line interface utility for EVE Online
+# eat-thy-eve
+Utility for EVE Online by cornmonger and friends
+
