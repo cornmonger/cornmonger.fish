@@ -7,15 +7,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'cornteam'",
+            "name": "Debug executable 'cornmonger'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=cornteam",
-                    "--package=cornteam"
+                    "--bin=cornmonger",
+                    "--package=cornmonger"
                 ],
                 "filter": {
-                    "name": "cornteam",
+                    "name": "cornmonger",
                     "kind": "bin"
                 }
             },
@@ -25,16 +25,16 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable 'cornteam'",
+            "name": "Debug unit tests in executable 'cornmonger'",
             "cargo": {
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=cornteam",
-                    "--package=cornteam"
+                    "--bin=cornmonger",
+                    "--package=cornmonger"
                 ],
                 "filter": {
-                    "name": "cornteam",
+                    "name": "cornmonger",
                     "kind": "bin"
                 }
             },

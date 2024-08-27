@@ -1,3 +1,3 @@
 fn main() {
-    cornteam::run_main();
+    cornmonger::run_main();
 }
