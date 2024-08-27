@@ -1,3 +1,3 @@
-# cornmonger
-Utility for EVE Online by cornmonger and friends
+# cornmonger's site
+A random collection of little hobby apps made by cornmonger and friends
 

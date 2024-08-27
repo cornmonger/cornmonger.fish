@@ -2,7 +2,8 @@ use yew::prelude::*;
 use cornmonger_common::AppContainer;
 
 pub(crate) fn run() {
-    yew::Renderer::<App>::new().render();
+    yew::Renderer::<App>::new()
+        .render();
 }
 
 #[function_component]
@@ -16,15 +17,15 @@ fn App() -> Html {
             </div> 
             <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
                 <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-                    <a href="#">
-                        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="EVE_online_logo.svg" alt="EVE Online" />
+                    <a href="/eve">
+                        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://logowik.com/content/uploads/images/1187-eve-online.webp" alt="EVE Online" />
                     </a>
                     <div class="p-5">
                         <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            <a href="#">{"EVE Online"}</a>
+                            <a href="/eve">{"EVE Online"}</a>
                         </h3>
                         <span class="text-gray-500 dark:text-gray-400">{"API utilities"}</span>
-                        <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">{"Types, market info, etc."}</p>
+                        <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400"></p>
                         <ul class="flex space-x-4 sm:mt-0">
                             <li>
                                 <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -51,7 +52,7 @@ fn App() -> Html {
                 </div> 
                 <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Goban" />
+                        <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Go_board_part.jpg/330px-Go_board_part.jpg" alt="Goban" />
                     </a>
                     <div class="p-5">
                         <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
