@@ -1,9 +1,6 @@
-[package]
-name = "cornmonger"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-serde = { version = "1", features = ["derive"] }
-yew = { version = "0", features = ["csr"] }
-yew-autoprops = "0"
+[workspace]
+resolver = "2"
+members = [
+    "common",
+    "front"
+]

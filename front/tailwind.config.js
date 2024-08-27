@@ -3,7 +3,7 @@ module.exports = {
   content: [
     "./src/**/*.rs",
   ],
-  darkMode: "selector",
+  darkMode: "media",
   theme: {
     extend: {},
   },
