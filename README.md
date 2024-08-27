@@ -1,3 +1,3 @@
-# eat-thy-eve
+# cornteam
 Utility for EVE Online by cornmonger and friends
 

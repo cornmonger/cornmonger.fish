@@ -7,15 +7,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'eat-thy-eve'",
+            "name": "Debug executable 'cornteam'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=eat-thy-eve",
-                    "--package=eat-thy-eve"
+                    "--bin=cornteam",
+                    "--package=cornteam"
                 ],
                 "filter": {
-                    "name": "eat-thy-eve",
+                    "name": "cornteam",
                     "kind": "bin"
                 }
             },
@@ -25,16 +25,16 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable 'eat-thy-eve'",
+            "name": "Debug unit tests in executable 'cornteam'",
             "cargo": {
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=eat-thy-eve",
-                    "--package=eat-thy-eve"
+                    "--bin=cornteam",
+                    "--package=cornteam"
                 ],
                 "filter": {
-                    "name": "eat-thy-eve",
+                    "name": "cornteam",
                     "kind": "bin"
                 }
             },
